@@ -1,0 +1,23 @@
+.contact{
+    display: flex;
+}
+.body{
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+.contact2{
+    display: flex;
+}
+.contact3{
+    display: flex;
+}
+.contact4{
+    display: flex;
+}
+.align{
+    padding-left: 20%;
+}
+.as:hover{
+    transform: scale(0.9);
+    transition: 1s;
+}

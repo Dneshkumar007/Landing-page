@@ -1,0 +1,18 @@
+.body{
+overflow-y: hidden;
+overflow-x: hidden;
+
+
+}
+
+li{
+    margin-right: 400px;
+    font-size: larger;
+    text-decoration: none;
+}
+.as{
+    display: flex;
+}
+.ff:hover{
+    color: aliceblue;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="places.css">
+    <style>
+        @keyframes appear {
+            from {
+                opacity: 0;
+                scale: 0.5;
+            }
+
+            to {
+                opacity: 1;
+                scale: 1;
+            }
+        }
+
+        .pl {
+            animation: appear 3s linear;
+            animation-timeline: view();
+            animation-range: entry 0% cover 50%;
+        }
+
+        .fl {
+            animation: appear 3s linear;
+            animation-timeline: view();
+            animation-range: entry 0% cover 50%;
+        }
+
+        .al {
+            animation: appear 3s linear;
+            animation-timeline: view();
+            animation-range: entry 0% cover 50%;
+        }
+
+        .bl {
+            animation: appear 3s linear;
+            animation-timeline: view();
+            animation-range: entry 0% cover 50%;
+        }
+    </style>
+</head>
+
+<body >
+    <center>
+        <h1>Explore the seven wonders in the world</h1>
+    </center>
+    <div class="pl">
+        <div
+            style="width: 600px;height: 800px;background-image: url('photos/7 wonder.jpg');background-repeat: no-repeat;background-size: cover;margin-left: 5%;border-radius: 10%;">
+            <center>
+                <h2>Chichén Itzá</h2>
+            </center>
+        </div>
+        <div
+            style="width: 600px;height: 800px;background-image: url('photos/rome.jpg');background-repeat: no-repeat;background-size: cover;margin-left: 5%;border-radius: 10%;background-position-y: 30%;">
+            <center>
+                <h2>the Colosseum</h2>
+            </center>
+        </div>
+    </div>
+    <br><br>
+    <div class="fl">
+        <div
+            style="width: 600px;height: 800px;background-image: url('photos/Tajmahal.jpg');background-repeat: no-repeat;background-size: cover;margin-left: 5%;border-radius: 10%;background-position-x: center;">
+            <center>
+                <h2> the Taj Mahal</h2>
+            </center>
+        </div>
+        <div
+            style="width: 600px;height: 800px;background-image: url('photos/great wall of china.jpg');background-repeat: no-repeat;background-size: cover;margin-left: 5%;border-radius: 10%;background-position-x: center;">
+            <center>
+                <h2>the Great Wall of China</h2>
+            </center>
+        </div>
+    </div>
+    <br><br>
+    <div class="al">
+        <div
+            style="width: 600px;height: 800px;background-image: url('photos/petra.jpg');background-repeat: no-repeat;background-size: cover;margin-left: 5%;border-radius: 10%;background-position-x: center;">
+            <center>
+                <h2>Petra</h2>
+            </center>
+        </div>
+        <div
+            style="width: 600px;height: 800px;background-image: url('photos/machu pichu.jpg');background-repeat: no-repeat;background-size: cover;margin-left: 5%;border-radius: 10%;background-position-x: center;">
+            <center>
+                <h2>Machu Picchu</h2>
+            </center>
+        </div>
+    </div><br><br>
+    <div class="bl"
+        style="width: 600px;height: 800px;background-image: url('photos/chirst the reedemer.jpg');background-repeat: no-repeat;background-size: cover;margin-left: 30%;border-radius: 10%;background-position-x: center;">
+        <center>
+            <h2>Christ the Redeemer</h2>
+        </center>
+    </div>
+    </div><br><br>
+    <a href="home.html">
+        <center><button style="width: 70px;height: 30px;font-size: large;">Back</button></center>
+    </a>
+</body>
+
+</html>
