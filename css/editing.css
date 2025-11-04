@@ -1,12 +1,10 @@
-.body{
-overflow-y: hidden;
-overflow-x: hidden;
-
-
+body{
+overflow: hidden;
+font-family:sans-serif;
+margin: 0;
 }
 
 li{
-    margin-right: 400px;
     font-size: larger;
     text-decoration: none;
 }
@@ -16,3 +14,26 @@ li{
 .ff:hover{
     color: aliceblue;
 }
+a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: 0.3s;
+}
+
+a:hover::before {
+    width: 100%;
+   
+}
+
+
