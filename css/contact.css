@@ -1,5 +1,5 @@
-.contact{
-    display: flex;
+ .contact{
+    display: flex; 
 }
 .body{
     overflow-y: visible;
@@ -20,4 +20,10 @@
 .as:hover{
     transform: scale(0.9);
     transition: 1s;
+}
+.ff{
+    margin-left: 65%;
+}
+h3{
+    margin-left: 7.5%;
 }

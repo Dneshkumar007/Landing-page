@@ -1,15 +1,12 @@
-div{
-    overflow-y: visible;
-    overflow-x: hidden;
-}
 
 .as{
     display: flex;
 
 }
-.bs{
-    display: flex;
-}
+
+
 body{
-    overflow: hidden;
+    overflow-y:visible ;
+    overflow-x: hidden
+    ;
 }

@@ -5,8 +5,15 @@
 }
 .fl{
     display: flex;
+    opacity:s ;
+    transition-duration: 2s;
 }
 .al
 {
     display: flex;
+    opacity:s ;
+    transition-duration: 2s;
+}
+.ff{
+    margin-left: 65%;
 }

@@ -35,5 +35,9 @@ a:hover::before {
     width: 100%;
    
 }
+.button{
+    color: chocolate;
+    transition: 0.3s;
+}
 
 
